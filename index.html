@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Lista de Repositórios </title>
+    <link rel="icon" href="img/icone-github.png">
+
+    <!-- LINK PRO CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- LINK CDN MATERIALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+</head>
+
+<body>
+    
+    <div class="row box-form center">
+        <img src="img/github.png" class="logo-github"> <br> <br> <br>
+
+        <p class="exemplo">
+            ex: vihugoos/calculator
+        </p>
+    
+        <form id="repo-form">
+            <input type="text" spellcheck="false" autocomplete="off" name="repository">
+            <button type="submit" class="waves-effect waves-light btn"> <i class="material-icons right">playlist_add</i> Adicionar </button>
+        </form>
+    
+        <ul id="repo-list"> </ul>
+    </div>
+    
+    <!-- LINK JAVASCRIPT -->
+    <script src="bundle.js"> </script>
+</body>
+
+</html> 
