@@ -43,3 +43,8 @@ p {
     margin: 5px 0;
 }
 
+#loading {
+    width: 55px;
+    margin-left: 45%;
+}
+
